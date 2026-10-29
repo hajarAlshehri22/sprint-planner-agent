@@ -1,0 +1,14 @@
+{
+  "project": "e-services/citizen-portal",
+  "product": "Citizen e-services portal (permits, appointments, payments, citizen dashboard)",
+  "members": [
+    {"username": "noura.a",  "name": "Noura Al-Qahtani", "role": "backend",  "skills": ["api", "database", "permits", "reports", "java"], "capacity": 13},
+    {"username": "khalid.m", "name": "Khalid Al-Mutairi", "role": "backend", "skills": ["integrations", "nafath", "sadad", "payments", "sms", "notifications"], "capacity": 13},
+    {"username": "reem.s",   "name": "Reem Al-Saud", "role": "frontend",     "skills": ["angular", "ui", "rtl", "accessibility", "dashboard"], "capacity": 13},
+    {"username": "omar.h",   "name": "Omar Al-Harbi", "role": "frontend",    "skills": ["ui", "mobile", "forms", "angular"], "capacity": 8},
+    {"username": "huda.k",   "name": "Huda Al-Khaldi", "role": "qa",         "skills": ["testing", "automation", "regression", "performance"], "capacity": 13},
+    {"username": "sultan.f", "name": "Sultan Al-Fahad", "role": "devops",    "skills": ["ci/cd", "deployment", "monitoring", "infrastructure", "security"], "capacity": 8}
+  ],
+  "labels": ["feature", "bug", "tech-debt", "security", "qa", "devops", "priority::high", "priority::medium", "priority::low"],
+  "estimates": [1, 2, 3, 5, 8]
+}

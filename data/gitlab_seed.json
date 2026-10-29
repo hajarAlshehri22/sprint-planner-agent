@@ -1,0 +1,20 @@
+{
+  "project": "e-services/citizen-portal",
+  "milestones": [
+    {"id": 23, "title": "Sprint 23", "start_date": "2026-10-19", "due_date": "2026-10-30", "state": "active"},
+    {"id": 24, "title": "Sprint 24", "start_date": "2026-11-02", "due_date": "2026-11-13", "state": "active"},
+    {"id": 25, "title": "Sprint 25", "start_date": "2026-11-16", "due_date": "2026-11-27", "state": "active"}
+  ],
+  "issues": [
+    {"iid": 31, "title": "Permit status page shows wrong date format in Arabic", "state": "opened", "assignee": "reem.s", "labels": ["bug", "priority::medium"], "weight": 2, "milestone": "Sprint 24"},
+    {"iid": 34, "title": "Dashboard redesign: citizen requests overview", "state": "opened", "assignee": "reem.s", "labels": ["feature"], "weight": 5, "milestone": "Sprint 24"},
+    {"iid": 35, "title": "RTL layout fixes on appointment booking form", "state": "opened", "assignee": "reem.s", "labels": ["bug"], "weight": 3, "milestone": "Sprint 24"},
+    {"iid": 36, "title": "Upgrade Angular to latest LTS", "state": "opened", "assignee": "omar.h", "labels": ["tech-debt"], "weight": 3, "milestone": "Sprint 24"},
+    {"iid": 38, "title": "Add SMS reminder 24 hours before appointment", "state": "opened", "assignee": "khalid.m", "labels": ["feature"], "weight": 3, "milestone": "Sprint 24"},
+    {"iid": 41, "title": "Nafath login fails on Safari iOS", "state": "opened", "assignee": "khalid.m", "labels": ["bug", "priority::high"], "weight": 3, "milestone": "Sprint 24"},
+    {"iid": 42, "title": "Permit API: pagination for permit list endpoint", "state": "opened", "assignee": "noura.a", "labels": ["feature"], "weight": 3, "milestone": "Sprint 24"},
+    {"iid": 44, "title": "Regression test suite for payment flow", "state": "opened", "assignee": "huda.k", "labels": ["qa"], "weight": 3, "milestone": "Sprint 24"},
+    {"iid": 45, "title": "Set up uptime monitoring alerts for production", "state": "opened", "assignee": "sultan.f", "labels": ["devops"], "weight": 2, "milestone": "Sprint 24"},
+    {"iid": 27, "title": "Export permits list to Excel", "state": "closed", "assignee": "noura.a", "labels": ["feature"], "weight": 3, "milestone": "Sprint 22"}
+  ]
+}

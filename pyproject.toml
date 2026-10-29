@@ -1,0 +1,24 @@
+[project]
+name = "sprint-planner"
+version = "0.1.0"
+description = "Sprint Planner Agent: turns manager meeting notes into GitLab issues with acceptance criteria, after the team lead approves"
+requires-python = ">=3.11"
+dependencies = [
+    "gradio>=6.31.0",
+    "httpx>=0.28.1",
+    "mcp>=2.3.0",
+    "openai>=3.40.0",
+    "pandas>=3.1.0",
+    "python-dotenv>=1.2.4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
